@@ -1,0 +1,102 @@
+
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+body{
+  background-color: #EAF2FF;
+}
+
+    .form-conitainer {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+      margin-left: 250px;
+      border: 2px solid black;
+      border-radius: 2rem;
+      width: 350px;
+      min-height: 90vh;
+
+
+    }
+
+
+    .section-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 5px;
+      line-height: 29px;
+      align-items: flex-start;
+
+
+    }
+
+
+    .output {
+      display: flex;
+      margin-left: 20px;
+      margin-top: 10px;
+
+    }
+
+
+    .form-conitainer button {
+      width: 300px;
+      height: 50px;
+      font-size: 20px;
+      background-color: blue;
+      font-weight: bold;
+      cursor: pointer;
+      color: aliceblue;
+      border-radius: 2rem;
+
+    }
+
+    button:hover {
+      color: gold;
+    }
+
+    .section-form label {
+      display: block;
+      margin-bottom: 1px;
+      font-weight: bold;
+      gap: 4px;
+    }
+
+
+    .section-form input {
+      font-weight: bold;
+      gap: 4px;
+      height: 30px;
+      width: 85%;
+      border: 2px solid black;
+      border-radius: 1rem;
+      text-align: left;
+      box-shadow: gold;
+    }
+
+
+    .tat {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      color: blue;
+
+    }
+
+
+    #StudInf {
+      display: flex;
+      text-align: center;
+      gap: 7px;
+      margin-left: 100px;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 30px;
+      color: blue;
+    }
